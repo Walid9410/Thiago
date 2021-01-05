@@ -11,7 +11,7 @@ class Myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.redAccent,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center ,
@@ -25,7 +25,7 @@ class Myapp extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'Source sans pro',
                   fontSize: 15.0,
-                  color: Colors.teal.shade200,
+                  color: Colors.black,
                   letterSpacing: 2.5,
                   fontWeight: FontWeight.bold,
                 ),
@@ -48,7 +48,7 @@ class Myapp extends StatelessWidget {
                     Icon(
                       Icons.call,
                       size: 20.0,
-                      color: Colors.teal.shade900,
+                      color: Colors.red.shade900,
                     ),
                     SizedBox(
                       width: 10.0,
