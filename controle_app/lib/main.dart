@@ -21,7 +21,7 @@ class Myapp extends StatelessWidget {
                 backgroundImage: AssetImage('image/gon.jpg'),
               ),
               Text(
-                'Friha walid',
+                'Friha Walid',
                 style: TextStyle(
                   fontFamily: 'Source sans pro',
                   fontSize: 15.0,
@@ -48,7 +48,7 @@ class Myapp extends StatelessWidget {
                     Icon(
                       Icons.call,
                       size: 20.0,
-                      color: Colors.red.shade900,
+                      color: Colors.teal.shade900,
                     ),
                     SizedBox(
                       width: 10.0,
@@ -89,6 +89,20 @@ class Myapp extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}
+
+class seconde_page extends StatefulWidget {
+  @override
+  _seconde_page createState() => _seconde_page();
+}
+
+class _seconde_page extends State<seconde_page> {
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      body: new Text('la seconde page'),
     );
   }
 }
